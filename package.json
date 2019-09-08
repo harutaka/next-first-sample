@@ -1,0 +1,17 @@
+{
+  "name": "next-first-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "wdev": "node --inspect-brk=9229 node_modules/next/dist/bin/next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.0.5",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  }
+}
